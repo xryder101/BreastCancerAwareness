@@ -1,8 +1,10 @@
+/*background image set for the body and font size set to 25 pixels*/
 body {
     background-image: url("pink ribbon pattern.jpg");
     font-size: 25px;
 }
 
+/*Create a nav bar content box with a white border and pink background color*/
 nav {
     background-color: rgb(221, 99, 140);
     border: 4px solid white;
@@ -10,6 +12,16 @@ nav {
     bottom: 6.6px;
     right: 4px;
     height: 50px;
+}
+
+main {
+    background-color: white;
+    color: rgb(255, 112, 136);
+    height: 100px;
+    width: 100%;
+    opacity: 85%;
+    position: relative;
+    
 }
 
 footer {
