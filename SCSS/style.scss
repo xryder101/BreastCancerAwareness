@@ -1,3 +1,4 @@
+/*Import partial _config file for use in style.css*/
 @import 'config';
 
 /*background image set for the body and font size set to 25 pixels*/
@@ -16,6 +17,7 @@ nav {
     height: 50px;
 }
 
+/*Creates a white transparent content box */
 main {
     background-color: white;
     color: $primary-text-color;
@@ -26,6 +28,7 @@ main {
     
 }
 
+/*Creates a footer content box that spans the entire length of the webpage*/
 footer {
     background-color: $navbar-color;
     border: $nav-border-style;
