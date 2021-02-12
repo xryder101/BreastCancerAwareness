@@ -1,5 +1,6 @@
 /*Import partial _config file for use in style.css*/
 @import 'config';
+@import 'media';
 
 * {
     box-sizing: border-box;
@@ -45,7 +46,26 @@ li{
     position: relative;
     margin: 20px 0px;
 }
-    
+
+a{
+    position: relative;
+    bottom:50px;
+    left: 800px;
+    display: inline-block;
+    text-decoration: none;
+    color: $primary-text-color;
+    border: $primary-text-color solid 3px;
+    border-radius: 70px;
+    background-color: white;
+    opacity: 85%;
+}
+
+a:hover {
+    border: white solid 3px;
+    color: white;
+    background-color: rgb(240, 121, 141);
+}
+
 }
 
 /*Creates a footer content box that spans the entire length of the webpage*/
